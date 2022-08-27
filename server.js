@@ -28,6 +28,7 @@ app.post("/tweets", (req, res) => {
   res.send("Ok");
 });
 
+//Get-Tweets
 app.get("/tweets", (req, res) => {
   res.send(tweets);
 });
