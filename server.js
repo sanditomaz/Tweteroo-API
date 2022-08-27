@@ -18,6 +18,7 @@ app.post("/sign-up", (req, res) => {
   res.send("Ok");
 });
 
+//Post-Tweets
 app.post("/tweets", (req, res) => {
   const posts = req.body;
   posts.id = tweets.length + 1;
