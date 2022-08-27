@@ -9,6 +9,7 @@ let users = [];
 let tweets = [];
 let avatar;
 
+//Sign-Up
 app.post("/sign-up", (req, res) => {
   const newUser = req.body;
   avatar = req.body.avatar;
